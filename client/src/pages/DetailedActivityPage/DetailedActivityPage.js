@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import wine from "../../assets/icons/wine.svg";
 import pizza1 from "../../assets/images/pizza1.png";
 import pizza2 from "../../assets/images/pizza2.jpg";
 import pizza3 from "../../assets/images/pizza3.jpg";
 import heart from "../../assets/icons/heart.svg";
+import whiteHeart from "../../assets/icons/whiteHeart.svg";
+
 import "./DetailedActivityPage.scss";
 
 const DetailedActivityPage = () => {
+  const [isLiked, setIsLiked] = useState(false);
+  const handleToggleLike = () => {
+    setIsLiked(!isLiked);
+  };
+
   return (
     <main className="detailedActivity">
       <div className="detailedActivity__routes">
@@ -37,7 +44,13 @@ const DetailedActivityPage = () => {
           <div className="detailedActivity__bio">
             <div className="detailedActivity__headline">
               <h1 className="detailedActivity__name">Pizza Making at Nook</h1>
-              <img className="detailedActivity__like" src={heart} alt="like" />
+
+              <img
+                className="detailedActivity__like"
+                src={isLiked ? heart : whiteHeart}
+                alt="like"
+                onClick={handleToggleLike}
+              />
             </div>
             <p className="detailedActivity__location">
               1525 Yew St, Vancouver, BC V6K 3E5

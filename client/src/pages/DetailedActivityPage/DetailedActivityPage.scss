@@ -16,14 +16,14 @@
   /////////////////////
   &__info {
     margin: 2rem 0;
-    @include flexbox(row, space-between, flex-start);
+    @include flexbox(row, center, flex-start);
     gap: 2rem;
   }
 
   &__left {
     width: 40%;
-    min-width: 35.5rem;
-    max-width: 36.5rem;
+    min-width: 35rem;
+    max-width: 35.5rem;
     height: 31.5rem;
     @include flexbox(row, space-between, center);
   }
@@ -31,7 +31,7 @@
   &__big {
     width: 23.0625rem;
     height: 31.5rem;
-    margin-right: 1.1875rem;
+    margin-right: 1rem;
   }
 
   &__image-container {
@@ -105,7 +105,7 @@
   }
 
   &__text-container {
-    max-width: 30rem;
+    // max-width: 30rem;
   }
 
   &__text {

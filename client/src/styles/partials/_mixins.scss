@@ -24,25 +24,26 @@
 /********* font *********/
 @mixin heading {
   font-weight: 700;
-  font-size: 3.5rem;
+  line-height: 3rem;
+  font-size: 2.5rem;
 }
 
 @mixin heading2 {
   font-weight: 600;
   line-height: 2rem;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 @mixin heading3 {
   font-weight: 600;
   line-height: 2rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 @mixin heading4 {
   font-weight: 600;
-  line-height: 2rem;
-  font-size: 1.75rem;
+  line-height: 2.25rem;
+  font-size: 1.25rem;
 }
 
 @mixin body1 {
