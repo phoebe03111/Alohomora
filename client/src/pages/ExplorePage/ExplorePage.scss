@@ -5,29 +5,25 @@
 .explore {
   margin-bottom: 5rem;
 
+
   &__header {
     // @include page-header;
     padding: 2rem 6rem;
+
+  
+  &__top {
+    @include page-header;
+    padding: 2rem 6rem; 
+  }
+
+  &__header {
+    margin-bottom: 2rem;
+
   }
 
   &__category {
     display: flex;
     gap: 1rem;
-  }
-
-  &__tag {
-    background-color: gray;
-    color: white;
-    border-radius: 10px;
-    padding: 0.5rem;
-    font-size: 1rem;
-    margin-top: 2rem;
-
-    &:hover {
-      opacity: 0.9;
-      transform: scale(0.96);
-      cursor: pointer;
-    }
   }
 
   &__topic {
