@@ -1,21 +1,50 @@
-@use '../../styles/partials/global.scss';
+@use '../../styles/partials/global.scss' as *;
+@use '../../styles/partials/typography.scss' as *;
+@use '../../styles/partials/mixins.scss' as *;
+@use '../../styles/partials/variables.scss' as *;
 .header {
-  padding: 16px;
+  padding-left: 119px;
+  padding-right: 119px;
   background-color: #A0A0A0;
   display: flex;
   justify-content: space-between;
   width: 100%;
+  background-color: $primary-green;
+  height: 100px;
+  
+
+  &__image-wrapper {
+    align-self: center;
+
+  }
+  &__logo {
+    font-style: normal;
+    color: $primary-white;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+
+  }
 
 
   &__left-menu {
-    width: 25%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
   }
 
   &__profile {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     align-self: center;
+    color: $primary-white;
+  }
+  &__explore,&__about,&__contact{
+    color: $primary-white;
   }
 }
