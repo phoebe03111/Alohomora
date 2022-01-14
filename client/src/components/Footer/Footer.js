@@ -9,6 +9,7 @@ const Footer = () => {
         <p className='footer__item'>Become a Partner</p>
         <p className='footer__item'>Blog</p>
         <p className='footer__item'>Social</p>
+        <p className='footer__item'>Stay Connected</p>
 
       </div>
       
