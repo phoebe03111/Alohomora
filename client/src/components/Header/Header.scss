@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  padding: 0px 100px;
+  background-color: #A0A0A0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+
+  &__left-menu {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__profile {
+    height: 20px;
+    width: 20px;
+    align-self: center;
+  }
+}
