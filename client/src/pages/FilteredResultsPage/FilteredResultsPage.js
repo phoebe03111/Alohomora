@@ -1,5 +1,6 @@
 import React from "react";
 import Tag from "../../components/Tag/Tag";
+import ColoredTag from "../../components/ColoredTag/ColoredTag";
 import Card from "../../components/Card/Card";
 import filterIcon from "../../assets/icons/filter.png";
 import "./FilteredResultsPage.scss";
@@ -18,9 +19,9 @@ function FilteredResultsPage() {
               <Tag>Nature & Outdoors</Tag>
             </div>
             <div className="search__category">
-              <Tag>In Person & Online</Tag>
-              <Tag>Max. $50 per person</Tag>
-              <Tag>60-70 people</Tag>
+              <ColoredTag>In Person & Online</ColoredTag>
+              <ColoredTag>Max. $50 per person</ColoredTag>
+              <ColoredTag>60-70 people</ColoredTag>
             </div>
           </div>
 
