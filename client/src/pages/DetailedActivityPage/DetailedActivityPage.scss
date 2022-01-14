@@ -3,7 +3,7 @@
 
 .detailedActivity {
   width: 100%;
-  padding: 2rem 3rem;
+  padding: 3rem 4rem;
 
   &__routes {
     @include flexbox(row, flex-start, center);
@@ -16,13 +16,37 @@
   /////////////////////
   &__info {
     margin: 2rem 0;
-    @include flexbox(row, flex-end, flex-start);
+    @include flexbox(row, space-between, flex-start);
+    gap: 2rem;
   }
 
   &__left {
-    width: 15rem;
-    height: 20rem;
-    margin-right: 2rem;
+    width: 40%;
+    min-width: 35.5rem;
+    max-width: 36.5rem;
+    height: 31.5rem;
+    @include flexbox(row, space-between, center);
+  }
+
+  &__big {
+    width: 23.0625rem;
+    height: 31.5rem;
+    margin-right: 1.1875rem;
+  }
+
+  &__image-container {
+    width: 10.875rem;
+    @include flexbox(column, flex-start, flex-start);
+  }
+
+  &__mid {
+    width: 10.875rem;
+    height: 18.125rem;
+    margin-bottom: 1.2rem;
+  }
+  &__small {
+    width: 10.875rem;
+    height: 12rem;
   }
 
   &__image {
@@ -33,25 +57,43 @@
   }
   ///////////////////
   &__right {
-    width: 65%;
+    width: 50%;
   }
 
   &__headline {
     @include flexbox(row, space-between, center);
   }
 
-  &__location {
-    margin: 0.5rem 0;
+  &__like {
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+    }
   }
 
+  &__name {
+    @include heading3;
+  }
+
+  &__location {
+    @include card-description;
+    margin-top: 1rem;
+  }
+
+  &__phone {
+    @include card-description;
+    margin-top: 0.5rem;
+  }
+
+  //////////////////////
   &__tag-container {
-    margin: 1rem 0;
+    margin: 2rem 0;
     @include flexbox(row, flex-start, center);
   }
 
   &__tag {
-    padding: 0.5rem 1rem;
-    background-color: gray;
+    padding: 0.3rem 1rem;
+    border: 1px solid $primary-gray;
     border-radius: 8px;
   }
 
@@ -59,6 +101,7 @@
     height: 1rem;
     width: 1rem;
     margin-left: 1rem;
+    transform: scale(1.4);
   }
 
   &__text-container {
@@ -67,5 +110,12 @@
 
   &__text {
     margin-bottom: 1rem;
+    @include body1;
+  }
+
+  ///////////////
+  &__button-container {
+    margin-top: 1rem;
+    width: 100%;
   }
 }
