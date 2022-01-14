@@ -1,0 +1,91 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
+.modal {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.344);
+  padding-top: 5rem;
+
+  .filter-form {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.625rem;
+    width: 80%;
+    max-width: 48.75rem;
+    margin: auto;
+    position: relative;
+
+    &__head {
+      @include flexbox(row, center, center);
+    }
+
+    &__close {
+      position: absolute;
+      right: 1rem;
+    }
+
+    &__access {
+      width: 100%;
+      margin-top: 1rem;
+      @include flexbox(column, flex-start, flex-start);
+    }
+
+    &__access-options {
+      padding: 0 1rem;
+      width: 100%;
+      @include flexbox(row, flex-start, center);
+    }
+
+    &__access-item {
+      width: 25%;
+      @include flexbox(row, flex-start, center);
+    }
+
+    &__label {
+      margin-left: 0.5rem;
+    }
+
+    &__description {
+      padding: 0 1rem;
+    }
+
+    ///////////////////////price range & number of people
+    &__entries {
+      margin-top: 1rem;
+    }
+
+    &__range {
+      @include flexbox(row, flex-start, center);
+      padding: 0 1rem;
+    }
+
+    &__range-mid {
+      margin: 0 0.5rem;
+      margin-top: 0.5rem;
+    }
+
+    &__range-side {
+      @include flexbox(column, center, center);
+    }
+
+    ///////////////////////activity
+    &__activity {
+      @include flexbox(row, flex-start, center);
+    }
+
+    &__activity-item {
+      @include flexbox(row, flex-start, center);
+      margin-left: 1rem;
+      &:nth-of-type(0) {
+        margin-left: 1rem;
+      }
+    }
+    ///////////////////////bottom
+    &__bottom {
+      width: 100%;
+      margin-top: 1rem;
+      @include flexbox(row, flex-end, center);
+    }
+  }
+}

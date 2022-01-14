@@ -1,0 +1,57 @@
+@use '../../styles/partials/global.scss';
+@use '../../styles/partials/typography.scss';
+@use '../../styles/partials/mixins.scss';
+@use '../../styles/partials/variables.scss';
+.hero {
+  &__wrapper {
+    height: 50vh;
+    background-color: #505050;
+    position: relative;
+  }
+  &__content{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 22px;
+  }
+  &__text {
+    color: white;
+    width: 70%;
+    padding-bottom: 16px;
+  }
+  &__btn {
+    border: none;
+    background-color: #A0A0A0;
+  }
+
+}
+
+.trending {
+  height: 70vh;
+  &__title {
+    text-align: center;
+    padding: 16px;
+  }
+  &__content {
+    padding: 16px;
+  }
+  &__scroll {
+    text-align: center;
+    padding: 16px;
+  }
+  &__image {
+    height: 30px;
+  }
+  &__logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 40px;
+  }
+  &__logo {
+    background-color: grey;
+    padding: 12px 6px;
+    border-radius: 4px;
+  }
+}

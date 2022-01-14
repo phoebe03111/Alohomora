@@ -12,6 +12,7 @@ import StorePage from "./pages/StorePage/StorePage";
 import Footer from "./components/Footer/Footer";
 import ExplorePage from "./pages/ExplorePage/ExplorePage";
 import Header from "./components/Header/Header";
+import Modal from "./components/Modal/Modal";
 import ContactPage from "../src/pages/ContactPage/ContactPage";
 import AboutPage from "../src/pages/AboutPage/AboutPage";
 import FilteredResultsPage from "./pages/FilteredResultsPage/FilteredResultsPage";
@@ -23,6 +24,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/store/:id" component={StorePage} />
+        <Route path="/test" component={Modal} />
         <Route path="/explore" component={ExplorePage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/about" component={AboutPage} />
