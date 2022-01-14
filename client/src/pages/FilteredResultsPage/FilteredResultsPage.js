@@ -38,10 +38,10 @@ function FilteredResultsPage() {
         </div>
       </div>
 
-      <div className="search__cards">
+      {/* <div className="search__cards">
         <Card />
         <Card />
-      </div>
+      </div> */}
     </main>
   );
 }
