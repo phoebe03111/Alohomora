@@ -1,525 +1,852 @@
 {
   "businesses": [
     {
-      "id": "31g2NrCV69158hVb6uvnGw",
-      "alias": "brewstirs-cafe-houston",
-      "name": "Brewstir's Cafe",
-      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/b1L48p_B4LfMYBipT13c7A/o.jpg",
+      "id": "kajMc2fkWKdzKJ1M4pm47Q",
+      "alias": "stanley-park-vancouver-4",
+      "name": "Stanley Park",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/fdeIy46_40yW0aeDMTKKzA/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/brewstirs-cafe-houston?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 3,
+      "url": "https://www.yelp.com/biz/stanley-park-vancouver-4?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 958,
       "categories": [
         {
-          "alias": "tradamerican",
-          "title": "American (Traditional)"
+          "alias": "parks",
+          "title": "Parks"
         }
       ],
-      "rating": 4.5,
+      "rating": 5.0,
       "coordinates": {
-        "latitude": 54.39977,
-        "longitude": -126.6458
+        "latitude": 49.2978842,
+        "longitude": -123.1308093
+      },
+      "transactions": [],
+      "location": {
+        "address1": "1166 Stanley Park Drive",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6G",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "1166 Stanley Park Drive",
+          "Vancouver, BC V6G",
+          "Canada"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 3990.778629110828
+    },
+    {
+      "id": "VPqWLp9kMiZEbctCebIZUA",
+      "alias": "medina-cafe-vancouver",
+      "name": "Medina Cafe",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9avnAPBgEVN9WJFu1ttg9w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/medina-cafe-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 2353,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        },
+        {
+          "alias": "mideastern",
+          "title": "Middle Eastern"
+        },
+        {
+          "alias": "wine_bars",
+          "title": "Wine Bars"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 49.2804429972571,
+        "longitude": -123.117036269849
       },
       "transactions": [],
       "price": "$$",
       "location": {
-        "address1": "3429 10th Street",
-        "address2": "Suite 121",
+        "address1": "780 Richards Street",
+        "address2": "",
         "address3": "",
-        "city": "Houston",
-        "zip_code": "V0J 1Z0",
+        "city": "Vancouver",
+        "zip_code": "V6B 3A4",
         "country": "CA",
         "state": "BC",
         "display_address": [
-          "3429 10th Street",
-          "Suite 121",
-          "Houston, BC V0J 1Z0",
+          "780 Richards Street",
+          "Vancouver, BC V6B 3A4",
           "Canada"
         ]
       },
-      "phone": "+12508452022",
-      "display_phone": "+1 250-845-2022",
-      "distance": 32938.37301687843
+      "phone": "+16048793114",
+      "display_phone": "+1 604-879-3114",
+      "distance": 1909.5584355163853
     },
     {
-      "id": "mKCDR2_Yqxc0WV7KOeCLeQ",
-      "alias": "old-and-bold-espresso-bar-burns-lake",
-      "name": "Old and Bold Espresso Bar",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/fXwwg0NI6OCwD5LWzY49rg/o.jpg",
+      "id": "4EV_ZcQmjAmP3pmO-_nb2A",
+      "alias": "miku-vancouver-2",
+      "name": "Miku",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_mSRn8oNJZ5AAx8sZf1oHg/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/old-and-bold-espresso-bar-burns-lake?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 4,
+      "url": "https://www.yelp.com/biz/miku-vancouver-2?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 1876,
       "categories": [
         {
-          "alias": "coffee",
-          "title": "Coffee & Tea"
+          "alias": "japanese",
+          "title": "Japanese"
         },
+        {
+          "alias": "sushi",
+          "title": "Sushi Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 49.28691753455261,
+        "longitude": -123.11276314110472
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "200 Granville Street",
+        "address2": "Suite 70",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6C 1S4",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "200 Granville Street",
+          "Suite 70",
+          "Vancouver, BC V6C 1S4",
+          "Canada"
+        ]
+      },
+      "phone": "+16045683900",
+      "display_phone": "+1 604-568-3900",
+      "distance": 2640.5674434140924
+    },
+    {
+      "id": "LjdbthVdtLYKSi7iVAFl0g",
+      "alias": "jam-cafe-on-beatty-vancouver",
+      "name": "Jam Cafe on Beatty",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_NarCXZg1AFlR41cMrXwkQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/jam-cafe-on-beatty-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 1142,
+      "categories": [
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 49.2802586,
+        "longitude": -123.1096376
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "556 Beatty Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6B 2L3",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "556 Beatty Street",
+          "Vancouver, BC V6B 2L3",
+          "Canada"
+        ]
+      },
+      "phone": "+17783791992",
+      "display_phone": "+1 778-379-1992",
+      "distance": 1946.7376761407324
+    },
+    {
+      "id": "_4R46MNkwx9MeOyt0YfNxA",
+      "alias": "chambar-vancouver",
+      "name": "Chambar",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/fSzNu6lZuyOz65t229txpw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/chambar-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 1396,
+      "categories": [
+        {
+          "alias": "belgian",
+          "title": "Belgian"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 49.2801460007961,
+        "longitude": -123.109925328073
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "568 Beatty Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6B 2L3",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "568 Beatty Street",
+          "Vancouver, BC V6B 2L3",
+          "Canada"
+        ]
+      },
+      "phone": "+16048797119",
+      "display_phone": "+1 604-879-7119",
+      "distance": 1930.5337011764295
+    },
+    {
+      "id": "gt1BSfVFvzI-qHdJ3LUZug",
+      "alias": "blue-water-cafe-vancouver",
+      "name": "Blue Water Cafe",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/IEYJnzoc9gOV6iDaTr6a3w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/blue-water-cafe-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 939,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 49.2761945,
+        "longitude": -123.1209935
+      },
+      "transactions": [],
+      "price": "$$$$",
+      "location": {
+        "address1": "1095 Hamilton St",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6B 5T4",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "1095 Hamilton St",
+          "Vancouver, BC V6B 5T4",
+          "Canada"
+        ]
+      },
+      "phone": "+16046888078",
+      "display_phone": "+1 604-688-8078",
+      "distance": 1482.328162797273
+    },
+    {
+      "id": "crM1idgY_glhtxXT5kERNg",
+      "alias": "kingyo-vancouver",
+      "name": "Kingyo",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/hLNKn_UN4LtVPfnHSaXpOg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/kingyo-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 886,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "tapasmallplates",
+          "title": "Tapas/Small Plates"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 49.29061,
+        "longitude": -123.13714
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "871 Denman Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6G 2L9",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "871 Denman Street",
+          "Vancouver, BC V6G 2L9",
+          "Canada"
+        ]
+      },
+      "phone": "+16046081677",
+      "display_phone": "+1 604-608-1677",
+      "distance": 3395.565913583152
+    },
+    {
+      "id": "yeNenSjz_HCqngGFU5d8NQ",
+      "alias": "phnom-penh-vancouver",
+      "name": "Phnom Penh",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/99vr4wSLFMHrt8YeRXaXPQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/phnom-penh-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 1352,
+      "categories": [
+        {
+          "alias": "cambodian",
+          "title": "Cambodian"
+        },
+        {
+          "alias": "vietnamese",
+          "title": "Vietnamese"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 49.278431,
+        "longitude": -123.098205
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "244 E Georgia Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6A 1Z7",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "244 E Georgia Street",
+          "Vancouver, BC V6A 1Z7",
+          "Canada"
+        ]
+      },
+      "phone": "+16046825777",
+      "display_phone": "+1 604-682-5777",
+      "distance": 2132.7250951450683
+    },
+    {
+      "id": "GmEeIcJ9vR04kxzYgPMEgg",
+      "alias": "guu-with-garlic-vancouver-2",
+      "name": "Guu with Garlic",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/b6KQNr3_x1ISJGLTfApcgA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/guu-with-garlic-vancouver-2?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 946,
+      "categories": [
+        {
+          "alias": "japanese",
+          "title": "Japanese"
+        },
+        {
+          "alias": "tapas",
+          "title": "Tapas Bars"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 49.290249,
+        "longitude": -123.1338142
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "1698 Robson Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6G 1C7",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "1698 Robson Street",
+          "Vancouver, BC V6G 1C7",
+          "Canada"
+        ]
+      },
+      "phone": "+16046858678",
+      "display_phone": "+1 604-685-8678",
+      "distance": 3257.0203971774486
+    },
+    {
+      "id": "i0xnuLimVcuSoBqO265obA",
+      "alias": "hokkaido-ramen-santouka-vancouver",
+      "name": "Hokkaido Ramen Santouka",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/XZoibXxwxNwHjnFYB372vw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/hokkaido-ramen-santouka-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 955,
+      "categories": [
+        {
+          "alias": "ramen",
+          "title": "Ramen"
+        },
+        {
+          "alias": "noodles",
+          "title": "Noodles"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 49.290236,
+        "longitude": -123.133811
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "1690 Robson Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6G 1C7",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "1690 Robson Street",
+          "Vancouver, BC V6G 1C7",
+          "Canada"
+        ]
+      },
+      "phone": "+16046818121",
+      "display_phone": "+1 604-681-8121",
+      "distance": 3257.738490264748
+    },
+    {
+      "id": "uAROEz8D29elXoNxjnPrkQ",
+      "alias": "twisted-fork-vancouver",
+      "name": "Twisted Fork",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5uA-JiwtoZy-qM77cIJjrw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/twisted-fork-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 1052,
+      "categories": [
+        {
+          "alias": "french",
+          "title": "French"
+        },
+        {
+          "alias": "breakfast_brunch",
+          "title": "Breakfast & Brunch"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 49.283194,
+        "longitude": -123.104445
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "213 Carral Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6B 2J2",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "213 Carral Street",
+          "Vancouver, BC V6B 2J2",
+          "Canada"
+        ]
+      },
+      "phone": "+16045680749",
+      "display_phone": "+1 604-568-0749",
+      "distance": 2373.768869334373
+    },
+    {
+      "id": "MELmrubCowx8e3G68WTqgQ",
+      "alias": "marutama-ra-men-vancouver-4",
+      "name": "Marutama Ra-men",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/yDArSNGPQStbKCBVwA2ysw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/marutama-ra-men-vancouver-4?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 706,
+      "categories": [
+        {
+          "alias": "ramen",
+          "title": "Ramen"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 49.2905691,
+        "longitude": -123.1333951
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "780 Bidwell Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6G 2J6",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "780 Bidwell Street",
+          "Vancouver, BC V6G 2J6",
+          "Canada"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 3280.2758674195625
+    },
+    {
+      "id": "p5thThuUITUjAy8gS3sPMw",
+      "alias": "fable-kitchen-vancouver-2",
+      "name": "Fable Kitchen",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/f3ndRzTaMuPthYSFkMIt0g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/fable-kitchen-vancouver-2?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 690,
+      "categories": [
+        {
+          "alias": "newcanadian",
+          "title": "Canadian (New)"
+        }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 49.2679331,
+        "longitude": -123.149019
+      },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "1944 W 4th Avenue",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6J 1M5",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "1944 W 4th Avenue",
+          "Vancouver, BC V6J 1M5",
+          "Canada"
+        ]
+      },
+      "phone": "+16047321322",
+      "display_phone": "+1 604-732-1322",
+      "distance": 2435.1131842867535
+    },
+    {
+      "id": "sCyqVDtWysnVwkUvyN-uUQ",
+      "alias": "bella-gelateria-vancouver-7",
+      "name": "Bella Gelateria",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-w0n-fQEF7QzAt6-InttPg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/bella-gelateria-vancouver-7?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 865,
+      "categories": [
         {
           "alias": "desserts",
           "title": "Desserts"
         },
         {
-          "alias": "cakeshop",
-          "title": "Patisserie/Cake Shop"
+          "alias": "icecream",
+          "title": "Ice Cream & Frozen Yogurt"
         }
       ],
-      "rating": 5.0,
+      "rating": 4.0,
       "coordinates": {
-        "latitude": 54.230028,
-        "longitude": -125.762918
+        "latitude": 49.287793233076,
+        "longitude": -123.116454773109
       },
       "transactions": [],
+      "price": "$$$",
       "location": {
-        "address1": "Third Avenue",
-        "address2": "",
-        "address3": null,
-        "city": "Burns Lake",
-        "zip_code": "V0J 1E0",
-        "country": "CA",
-        "state": "BC",
-        "display_address": ["Third Avenue", "Burns Lake, BC V0J 1E0", "Canada"]
-      },
-      "phone": "+17782100897",
-      "display_phone": "+1 778-210-0897",
-      "distance": 53436.88298298305
-    },
-    {
-      "id": "71haygdIiQx3uYVS4B9Zuw",
-      "alias": "lucerne-campground-mt-robson",
-      "name": "Lucerne Campground",
-      "image_url": "",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/lucerne-campground-mt-robson?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 2,
-      "categories": [
-        {
-          "alias": "hiking",
-          "title": "Hiking"
-        },
-        {
-          "alias": "campgrounds",
-          "title": "Campgrounds"
-        }
-      ],
-      "rating": 2.5,
-      "coordinates": {
-        "latitude": 53.0302581787109,
-        "longitude": -119.23210144043
-      },
-      "transactions": [],
-      "location": {
-        "address1": "Hwy 16",
+        "address1": "1001 W Cordova Street",
         "address2": "",
         "address3": "",
-        "city": "Mt Robson",
-        "zip_code": "",
+        "city": "Vancouver",
+        "zip_code": "V6C 0B7",
         "country": "CA",
         "state": "BC",
-        "display_address": ["Hwy 16", "Mt Robson, BC", "Canada"]
+        "display_address": [
+          "1001 W Cordova Street",
+          "Vancouver, BC V6C 0B7",
+          "Canada"
+        ]
       },
-      "phone": "",
-      "display_phone": "",
-      "distance": 33111.87066822882
+      "phone": "+16045691010",
+      "display_phone": "+1 604-569-1010",
+      "distance": 2726.0122489415085
     },
     {
-      "id": "VUIZVEWfda4l5RE1m0bw9Q",
-      "alias": "alternative-grounds-burns-lake",
-      "name": "Alternative Grounds",
-      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/oh3kiuwHziQ09wEDchJnKQ/o.jpg",
+      "id": "Ufhxnrt_OJu4jHfVTP3aRQ",
+      "alias": "fanny-bay-oyster-bar-and-shellfish-market-vancouver",
+      "name": "Fanny Bay Oyster Bar & Shellfish Market",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9Ff-B-TKXF_BM8UMs_rtyA/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/alternative-grounds-burns-lake?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 3,
-      "categories": [
-        {
-          "alias": "coffee",
-          "title": "Coffee & Tea"
-        },
-        {
-          "alias": "burgers",
-          "title": "Burgers"
-        },
-        {
-          "alias": "sandwiches",
-          "title": "Sandwiches"
-        }
-      ],
-      "rating": 3.5,
-      "coordinates": {
-        "latitude": 54.2280451682189,
-        "longitude": -125.760811989618
-      },
-      "transactions": [],
-      "price": "$$",
-      "location": {
-        "address1": "321 Highway 16",
-        "address2": "",
-        "address3": "",
-        "city": "Burns Lake",
-        "zip_code": "V0J",
-        "country": "CA",
-        "state": "BC",
-        "display_address": ["321 Highway 16", "Burns Lake, BC V0J", "Canada"]
-      },
-      "phone": "+12506923303",
-      "display_phone": "+1 250-692-3303",
-      "distance": 53515.33742662756
-    },
-    {
-      "id": "I28dFo2jvUXSpraF7bSKAQ",
-      "alias": "mulvaneys-pub-burns-lake",
-      "name": "Mulvaney's Pub",
-      "image_url": "",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/mulvaneys-pub-burns-lake?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 5,
+      "url": "https://www.yelp.com/biz/fanny-bay-oyster-bar-and-shellfish-market-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 601,
       "categories": [
         {
           "alias": "seafood",
           "title": "Seafood"
         },
         {
-          "alias": "burgers",
-          "title": "Burgers"
+          "alias": "seafoodmarkets",
+          "title": "Seafood Markets"
         }
       ],
-      "rating": 3.0,
+      "rating": 4.5,
       "coordinates": {
-        "latitude": 54.225293,
-        "longitude": -125.753321
+        "latitude": 49.2787525,
+        "longitude": -123.1138689
       },
       "transactions": [],
       "price": "$$",
       "location": {
-        "address1": "164 Highway 16",
-        "address2": "",
-        "address3": "",
-        "city": "Burns Lake",
-        "zip_code": "V0J 1E0",
-        "country": "CA",
-        "state": "BC",
-        "display_address": [
-          "164 Highway 16",
-          "Burns Lake, BC V0J 1E0",
-          "Canada"
-        ]
-      },
-      "phone": "+12506923622",
-      "display_phone": "+1 250-692-3622",
-      "distance": 53914.63275939719
-    },
-    {
-      "id": "V87I_rUKlh42kNxWlyYPyA",
-      "alias": "pleasant-valley-restaurant-houston",
-      "name": "Pleasant Valley Restaurant",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/CIXMqlZZEP7CWUUdHLR7FA/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/pleasant-valley-restaurant-houston?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 1,
-      "categories": [
-        {
-          "alias": "tradamerican",
-          "title": "American (Traditional)"
-        }
-      ],
-      "rating": 5.0,
-      "coordinates": {
-        "latitude": 54.39708,
-        "longitude": -126.65799
-      },
-      "transactions": [],
-      "location": {
-        "address1": "3030 Highway 16",
+        "address1": "762 Cambie St",
         "address2": "",
         "address3": null,
-        "city": "Houston",
-        "zip_code": "V0J 1Z0",
+        "city": "Vancouver",
+        "zip_code": "V6B 2P2",
         "country": "CA",
         "state": "BC",
-        "display_address": ["3030 Highway 16", "Houston, BC V0J 1Z0", "Canada"]
+        "display_address": ["762 Cambie St", "Vancouver, BC V6B 2P2", "Canada"]
       },
-      "phone": "+12508452232",
-      "display_phone": "+1 250-845-2232",
-      "distance": 32792.67186928762
+      "phone": "+17783799510",
+      "display_phone": "+1 778-379-9510",
+      "distance": 1711.527841072457
     },
     {
-      "id": "jcRfeCHaO2KSluJpABoFpw",
-      "alias": "a-and-w-houston",
-      "name": "A&W",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/0476SbbjRVP7lyF80PeCzg/o.jpg",
+      "id": "dX6y4zA-1AtWsYnT4AZXNg",
+      "alias": "revolver-vancouver",
+      "name": "Revolver",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/CAExZOlAizC-yyLZrZt4xQ/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/a-and-w-houston?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 2,
-      "categories": [
-        {
-          "alias": "burgers",
-          "title": "Burgers"
-        },
-        {
-          "alias": "hotdogs",
-          "title": "Fast Food"
-        }
-      ],
-      "rating": 1.5,
-      "coordinates": {
-        "latitude": 54.3993165,
-        "longitude": -126.6503743
-      },
-      "transactions": [],
-      "location": {
-        "address1": "3282 Highway 16",
-        "address2": "",
-        "address3": "",
-        "city": "Houston",
-        "zip_code": "V0J 1Z0",
-        "country": "CA",
-        "state": "BC",
-        "display_address": ["3282 Highway 16", "Houston, BC V0J 1Z0", "Canada"]
-      },
-      "phone": "+12508457555",
-      "display_phone": "+1 250-845-7555",
-      "distance": 32922.78028150116
-    },
-    {
-      "id": "tG1EC1OumUBnN7u1WWc6wA",
-      "alias": "pan-handle-restaurant-burns-lake",
-      "name": "Pan Handle Restaurant",
-      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Rx4YMcK3cXDMenWZxzbOkg/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/pan-handle-restaurant-burns-lake?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 1,
-      "categories": [
-        {
-          "alias": "chinese",
-          "title": "Chinese"
-        }
-      ],
-      "rating": 4.0,
-      "coordinates": {
-        "latitude": 54.2349527226306,
-        "longitude": -125.768242211855
-      },
-      "transactions": [],
-      "location": {
-        "address1": "BC-16 Burns Lake",
-        "address2": "",
-        "address3": "",
-        "city": "Burns Lake",
-        "zip_code": "V0J",
-        "country": "CA",
-        "state": "BC",
-        "display_address": ["BC-16 Burns Lake", "Burns Lake, BC V0J", "Canada"]
-      },
-      "phone": "+12506923316",
-      "display_phone": "+1 250-692-3316",
-      "distance": 53241.18699080993
-    },
-    {
-      "id": "zxuPYsthuggIC4C9A_UPLA",
-      "alias": "redferns-coffee-house-burns-lake",
-      "name": "Redfern's Coffee House",
-      "image_url": "",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/redferns-coffee-house-burns-lake?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 1,
+      "url": "https://www.yelp.com/biz/revolver-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 540,
       "categories": [
         {
           "alias": "coffee",
           "title": "Coffee & Tea"
         }
       ],
-      "rating": 3.0,
+      "rating": 4.5,
       "coordinates": {
-        "latitude": 54.2303264678875,
-        "longitude": -125.755863189697
+        "latitude": 49.283273,
+        "longitude": -123.1094283
       },
       "transactions": [],
+      "price": "$",
       "location": {
-        "address1": "79 3rd Avenue",
+        "address1": "325 Cambie Street",
         "address2": "",
         "address3": "",
-        "city": "Burns Lake",
-        "zip_code": "V0J 1E0",
-        "country": "CA",
-        "state": "BC",
-        "display_address": ["79 3rd Avenue", "Burns Lake, BC V0J 1E0", "Canada"]
-      },
-      "phone": "+12506927379",
-      "display_phone": "+1 250-692-7379",
-      "distance": 53889.37672142161
-    },
-    {
-      "id": "zdNvuotuT-xLJuRiKac3Qw",
-      "alias": "china-moon-restaurant-burns-lake",
-      "name": "China Moon Restaurant",
-      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ItawyvJAjcnPl6M7u_ElLw/o.jpg",
-      "is_closed": false,
-      "url": "https://www.yelp.com/biz/china-moon-restaurant-burns-lake?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 3,
-      "categories": [
-        {
-          "alias": "chinese",
-          "title": "Chinese"
-        },
-        {
-          "alias": "tradamerican",
-          "title": "American (Traditional)"
-        },
-        {
-          "alias": "burgers",
-          "title": "Burgers"
-        }
-      ],
-      "rating": 1.0,
-      "coordinates": {
-        "latitude": 54.2241989449211,
-        "longitude": -125.754382610321
-      },
-      "transactions": [],
-      "location": {
-        "address1": "117 Trans Canada Hwy 16",
-        "address2": "",
-        "address3": "",
-        "city": "Burns Lake",
-        "zip_code": "",
+        "city": "Vancouver",
+        "zip_code": "V6B 1H7",
         "country": "CA",
         "state": "BC",
         "display_address": [
-          "117 Trans Canada Hwy 16",
-          "Burns Lake, BC",
+          "325 Cambie Street",
+          "Vancouver, BC V6B 1H7",
           "Canada"
         ]
       },
-      "phone": "+12506927411",
-      "display_phone": "+1 250-692-7411",
-      "distance": 53818.94532356803
+      "phone": "+16045584444",
+      "display_phone": "+1 604-558-4444",
+      "distance": 2268.1022585069272
     },
     {
-      "id": "wYP6GC81E1YIdWY0qC2RjQ",
-      "alias": "a-and-w-burns-lake",
-      "name": "A&W",
-      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/qEP00Y26p4-d083J1O2_2g/o.jpg",
+      "id": "NdEPf2Ls5Ql3_nkwjqKvXA",
+      "alias": "the-flying-pig-yaletown-vancouver",
+      "name": "The Flying Pig - Yaletown",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/A12vKckXPkrVAF9mXs9AbA/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/a-and-w-burns-lake?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 2,
+      "url": "https://www.yelp.com/biz/the-flying-pig-yaletown-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 1118,
       "categories": [
         {
-          "alias": "breakfast_brunch",
-          "title": "Breakfast & Brunch"
+          "alias": "newcanadian",
+          "title": "Canadian (New)"
         },
         {
-          "alias": "burgers",
-          "title": "Burgers"
+          "alias": "seafood",
+          "title": "Seafood"
         }
       ],
-      "rating": 2.5,
+      "rating": 4.0,
       "coordinates": {
-        "latitude": 54.2265856,
-        "longitude": -125.7586959
+        "latitude": 49.27501,
+        "longitude": -123.122
       },
       "transactions": [],
+      "price": "$$",
       "location": {
-        "address1": "261 Yellowhead Highway 16",
-        "address2": "",
+        "address1": "1168 Hamilton Street",
+        "address2": "Unit 104",
         "address3": "",
-        "city": "Burns Lake",
-        "zip_code": "V0J 1E0",
+        "city": "Vancouver",
+        "zip_code": "V6B 2S2",
         "country": "CA",
         "state": "BC",
         "display_address": [
-          "261 Yellowhead Highway 16",
-          "Burns Lake, BC V0J 1E0",
+          "1168 Hamilton Street",
+          "Unit 104",
+          "Vancouver, BC V6B 2S2",
           "Canada"
         ]
       },
-      "phone": "+12506920049",
-      "display_phone": "+1 250-692-0049",
-      "distance": 53527.5070404894
+      "phone": "+16045681344",
+      "display_phone": "+1 604-568-1344",
+      "distance": 1374.0667516424435
     },
     {
-      "id": "pedF_tbhQCLHpEGHqNDsxg",
-      "alias": "grapevine-pub-burns-lake-2",
-      "name": "Grapevine Pub",
-      "image_url": "",
+      "id": "A8ab1QjPyC10m9NAKQkliA",
+      "alias": "fritz-european-fry-house-vancouver",
+      "name": "Fritz European Fry House",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ubnNU8ZVdTSCFJGpg7c5Rg/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/grapevine-pub-burns-lake-2?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 1,
+      "url": "https://www.yelp.com/biz/fritz-european-fry-house-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 741,
       "categories": [
         {
-          "alias": "pubs",
-          "title": "Pubs"
+          "alias": "hotdogs",
+          "title": "Fast Food"
         },
         {
-          "alias": "bistros",
-          "title": "Bistros"
+          "alias": "poutineries",
+          "title": "Poutineries"
+        },
+        {
+          "alias": "modern_european",
+          "title": "Modern European"
         }
       ],
-      "rating": 1.0,
+      "rating": 4.0,
       "coordinates": {
-        "latitude": 54.2265734,
-        "longitude": -125.7603108
+        "latitude": 49.2772045,
+        "longitude": -123.1265253
       },
       "transactions": [],
+      "price": "$",
       "location": {
-        "address1": "156 Francois Lake Dr",
+        "address1": "718 Davie Street",
         "address2": "",
-        "address3": null,
-        "city": "Burns Lake",
-        "zip_code": "V0J 1E0",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6Z 1B6",
         "country": "CA",
         "state": "BC",
         "display_address": [
-          "156 Francois Lake Dr",
-          "Burns Lake, BC V0J 1E0",
+          "718 Davie Street",
+          "Vancouver, BC V6Z 1B6",
           "Canada"
         ]
       },
-      "phone": "+12506920068",
-      "display_phone": "+1 250-692-0068",
-      "distance": 53381.75127879411
+      "phone": "+16046840811",
+      "display_phone": "+1 604-684-0811",
+      "distance": 1734.1433194997885
     },
     {
-      "id": "LOvDlaSWJBlUbN_lUInLOA",
-      "alias": "tweedsmuir-restaurant-burns-lake",
-      "name": "Tweedsmuir Restaurant",
-      "image_url": "",
+      "id": "5T0vKfIJWP1xTnxA7fJ17w",
+      "alias": "meat-and-bread-vancouver",
+      "name": "Meat & Bread",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9UzMd85jAJUPWoOQakLuUQ/o.jpg",
       "is_closed": false,
-      "url": "https://www.yelp.com/biz/tweedsmuir-restaurant-burns-lake?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
-      "review_count": 1,
+      "url": "https://www.yelp.com/biz/meat-and-bread-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 757,
       "categories": [
         {
-          "alias": "tradamerican",
-          "title": "American (Traditional)"
+          "alias": "sandwiches",
+          "title": "Sandwiches"
         },
         {
-          "alias": "breakfast_brunch",
-          "title": "Breakfast & Brunch"
+          "alias": "soup",
+          "title": "Soup"
+        },
+        {
+          "alias": "salad",
+          "title": "Salad"
         }
       ],
-      "rating": 1.0,
+      "rating": 4.0,
       "coordinates": {
-        "latitude": 54.2281753530893,
-        "longitude": -125.761528015137
+        "latitude": 49.2826255017147,
+        "longitude": -123.109336831057
       },
       "transactions": [],
+      "price": "$",
       "location": {
-        "address1": "Trans Canada Hwy 16",
-        "address2": "",
+        "address1": "370 Cambie Street",
+        "address2": null,
         "address3": "",
-        "city": "Burns Lake",
-        "zip_code": "",
+        "city": "Vancouver",
+        "zip_code": "V6B 1H7",
         "country": "CA",
         "state": "BC",
-        "display_address": ["Trans Canada Hwy 16", "Burns Lake, BC", "Canada"]
+        "display_address": [
+          "370 Cambie Street",
+          "Vancouver, BC V6B 1H7",
+          "Canada"
+        ]
       },
       "phone": "",
       "display_phone": "",
-      "distance": 53473.73284652024
+      "distance": 2208.635851883244
+    },
+    {
+      "id": "2cXOMeyBCx4JFgs5-CJQdQ",
+      "alias": "joe-fortes-seafood-and-chop-house-vancouver",
+      "name": "Joe Fortes Seafood & Chop House",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/MC1qeYWCnnw6XemCiaQ5fg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/joe-fortes-seafood-and-chop-house-vancouver?adjust_creative=uRjRZEmCZDoQ2hSuUKidaQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=uRjRZEmCZDoQ2hSuUKidaQ",
+      "review_count": 1082,
+      "categories": [
+        {
+          "alias": "seafood",
+          "title": "Seafood"
+        },
+        {
+          "alias": "steak",
+          "title": "Steakhouses"
+        }
+      ],
+      "rating": 4.0,
+      "coordinates": {
+        "latitude": 49.28493,
+        "longitude": -123.12473
+      },
+      "transactions": [],
+      "price": "$$$",
+      "location": {
+        "address1": "777 Thurlow Street",
+        "address2": "",
+        "address3": "",
+        "city": "Vancouver",
+        "zip_code": "V6E 3V5",
+        "country": "CA",
+        "state": "BC",
+        "display_address": [
+          "777 Thurlow Street",
+          "Vancouver, BC V6E 3V5",
+          "Canada"
+        ]
+      },
+      "phone": "+16046691940",
+      "display_phone": "+1 604-669-1940",
+      "distance": 2487.1089338775273
     }
   ],
-  "total": 13,
+  "total": 240,
   "region": {
     "center": {
-      "longitude": -126.5570068359375,
-      "latitude": 54.10812914200204
+      "longitude": -123.11622619628906,
+      "latitude": 49.26327804232932
     }
   }
 }
