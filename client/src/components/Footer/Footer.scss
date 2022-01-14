@@ -8,20 +8,21 @@
    right: 0;
    left: 0;
    width: 100%;
-   background-color: ;
    
-  
-  &__wrapper {
+   
+   &__wrapper {
+    background-color: $primary-green;
     padding: 60px 187px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: grey;
+    color: grey;
   }
   &__item {
     font-weight: normal;
     font-size: 18px;
     line-height: 20px;
+    color: $primary-white;
     
   }
 }

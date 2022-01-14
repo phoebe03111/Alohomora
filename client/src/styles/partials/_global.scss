@@ -9,20 +9,20 @@
 }
 
 body {
-  font-family: "Avenir", serif;
-  color: $primary-black;
+  font-family: "Poppins", serif;
+  color: $primary-gray;
   background-color: $primary-white;
 }
 
 button {
   font-family: inherit;
-  @include mobil-labels;
   color: $primary-black;
   height: 2.25rem;
-  padding: 0 1rem;
-  border-radius: 20px;
-  background-color: $primary-white;
-  border: 1px solid $primary-blue;
+  padding: 0 3rem;
+  border-radius: 15px;
+  background-color: $primary-green;
+  border: 1px solid $primary-green;
+  color: $primary-white;
 
   &:hover,
   &:active {
@@ -34,27 +34,26 @@ button {
 
   @include tablet {
     height: 2.375rem;
-    @include labels;
   }
 }
 
 input,
 textarea {
   font-family: inherit;
-  height: 2.25rem;
+  height: 2rem;
   padding: 0 1rem;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid $primary-gray;
 
   &::placeholder {
     font-family: inherit;
     color: $primary-gray;
-    color: red;
+    color: $secondary-gray;
   }
 
   &:focus {
     outline: none;
-    border: 1px solid $primary-blue;
+    border: 1px solid $primary-green;
   }
 
   &:focus:invalid {
@@ -70,5 +69,4 @@ textarea {
 a {
   text-decoration: none;
   color: $primary-black;
-  font-weight: 900;
 }

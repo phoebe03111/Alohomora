@@ -21,87 +21,50 @@
   flex-direction: $flex-direction;
 }
 
-/********* font for desktop and tablet *********/
-@mixin page-header {
-  font-weight: 600;
-  font-size: 1.5rem;
+/********* font *********/
+@mixin heading {
+  font-weight: 700;
+  font-size: 3.5rem;
 }
 
-@mixin subheader {
+@mixin heading2 {
   font-weight: 600;
   line-height: 2rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
-@mixin labels {
+@mixin heading3 {
   font-weight: 600;
-  line-height: 1.375rem;
-  font-size: 0.875rem;
+  line-height: 2rem;
+  font-size: 2.5rem;
 }
 
-@mixin table-header {
+@mixin heading4 {
   font-weight: 600;
-  line-height: 1.125rem;
-  font-size: 0.75rem;
-}
-
-@mixin body-large {
-  font-weight: 400;
-  line-height: 1.75rem;
-  font-size: 1rem;
-}
-
-@mixin body-medium {
-  font-weight: 400;
-  line-height: 1.375rem;
-  font-size: 0.875rem;
-}
-
-@mixin body-small {
-  font-weight: 400;
-  line-height: 1.125rem;
-  font-size: 0.75rem;
-}
-
-/********* font for mobil *********/
-@mixin mobil-page-header {
-  font-weight: 600;
-  line-height: 2.25rem;
+  line-height: 2rem;
   font-size: 1.75rem;
 }
 
-@mixin mobil-subheader {
-  font-weight: 600;
-  line-height: 1.75rem;
-  font-size: 1.25rem;
-}
-
-@mixin mobil-labels {
-  font-weight: 600;
-  line-height: 1.25rem;
-  font-size: 0.8125rem;
-}
-
-@mixin mobil-table-header {
-  font-weight: 600;
-  line-height: 1rem;
-  font-size: 0.6875rem;
-}
-
-@mixin mobil-body-large {
+@mixin body1 {
   font-weight: 400;
-  line-height: 1.625rem;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+}
+
+@mixin body2 {
+  font-weight: 400;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+@mixin card-title {
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+}
+
+@mixin card-description {
+  font-weight: 400;
+  line-height: 1.5rem;
   font-size: 0.9375rem;
-}
-
-@mixin mobil-body-medium {
-  font-weight: 400;
-  line-height: 1.25rem;
-  font-size: 0.8125rem;
-}
-
-@mixin mobil-body-small {
-  font-weight: 400;
-  line-height: 1rem;
-  font-size: 0.6875rem;
 }

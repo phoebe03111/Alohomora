@@ -1,0 +1,15 @@
+@use '../../styles/partials/global.scss';
+@use '../../styles/partials/mixins.scss';
+@use '../../styles/partials/typography.scss';
+@use '../../styles/partials/variables.scss';
+
+.about {
+  &__wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 32px;
+  }
+  &__header {
+    padding-bottom: 16px;
+  }
+}
