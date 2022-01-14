@@ -1,10 +1,6 @@
-body{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@use '../../styles/partials/global.scss';
 .header {
-  padding: 0px 100px;
+  padding: 16px;
   background-color: #A0A0A0;
   display: flex;
   justify-content: space-between;
