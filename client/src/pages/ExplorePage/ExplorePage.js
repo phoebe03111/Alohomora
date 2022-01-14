@@ -1,18 +1,19 @@
 import React from "react";
+import Tag from "../../components/Tag/Tag";
 import CardGroup from "../../components/CardGroup/CardGroup";
 import "./ExplorePage.scss";
 
 function ExplorePage() {
   return (
     <main className="explore">
-      <div className="explore__header">
-        <h1>Explore Activities</h1>
+      <div className="explore__top">
+        <h1 className="explore__header">Explore Activities</h1>
         <div>
           <div className="explore__category">
-            <p className="explore__tag">Arts & Culture</p>
-            <p className="explore__tag">FItness & Wellness</p>
-            <p className="explore__tag">Food & Drinks</p>
-            <p className="explore__tag">Nature & Outdoors</p>
+            <Tag>Arts & Culture</Tag>
+            <Tag>FItness & Wellness</Tag>
+            <Tag>Food & Drinks</Tag>
+            <Tag>Nature & Outdoors</Tag>
           </div>
         </div>
       </div>
