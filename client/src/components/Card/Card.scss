@@ -9,9 +9,9 @@
   overflow: hidden;
   width: 20%;
   min-width: 17rem;
-  height: 20rem;
+  height: 21rem;
   cursor: pointer;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 
   &:hover {
     transform: scale(1.1);
@@ -39,5 +39,10 @@
 
   &__title {
     font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+  }
+
+  &__description {
+    font-size: 0.9rem;
   }
 }

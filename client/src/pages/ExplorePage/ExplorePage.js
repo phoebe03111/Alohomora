@@ -1,6 +1,7 @@
 import React from "react";
 import Tag from "../../components/Tag/Tag";
 import CardGroup from "../../components/CardGroup/CardGroup";
+import CardGroup2 from "../../components/CardGroup2/CardGroup2";
 import filterIcon from "../../assets/icons/filter.png";
 import "./ExplorePage.scss";
 
@@ -49,7 +50,7 @@ function ExplorePage() {
         </div>
         <div className="explore__card-group">
           <h3 className="explore__topic">outdoors</h3>
-          <CardGroup />
+          <CardGroup2 />
         </div>
       </div>
     </main>
