@@ -17,17 +17,23 @@ function FilteredResultsPage() {
               <Tag>FItness & Wellness</Tag>
               <Tag>Food & Drinks</Tag>
               <Tag>Nature & Outdoors</Tag>
+              <div className="explore__divide-line"></div>
+              <Tag>
+                <img
+                  className="filter-icon"
+                  src={filterIcon}
+                  alt="filter icon"
+                />
+                More Filters
+              </Tag>
             </div>
             <div className="search__category">
               <ColoredTag>In Person & Online</ColoredTag>
               <ColoredTag>Max. $50 per person</ColoredTag>
               <ColoredTag>60-70 people</ColoredTag>
+              <div className="explore__divide-line"></div>
+              <Tag>Reset Filters</Tag>
             </div>
-          </div>
-
-          <div className="search__tags-right">
-            <Tag>Reset Filter</Tag>
-            <img src={filterIcon} alt="filter icon" className="filter-icon" />
           </div>
         </div>
       </div>
