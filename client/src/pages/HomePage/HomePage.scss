@@ -4,8 +4,11 @@
 @use '../../styles/partials/variables.scss' as *;
 .hero {
   &__wrapper {
+    background-image: url('../../assets/images/activities/cookie.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 50vh;
-    background-color: #505050;
     position: relative;
   }
   &__content{
