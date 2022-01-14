@@ -36,6 +36,10 @@
     width: 65%;
   }
 
+  &__headline {
+    @include flexbox(row, space-between, center);
+  }
+
   &__location {
     margin: 0.5rem 0;
   }
