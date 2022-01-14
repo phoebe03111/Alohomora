@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className='footer__wrapper'>
-        <p>Join us</p>
-        <p>Become a Partner</p>
-        <p>Blog</p>
-        <p>Social</p>
+        <p className='footer__item'>Join us</p>
+        <p className='footer__item'>Become a Partner</p>
+        <p className='footer__item'>Blog</p>
+        <p className='footer__item'>Social</p>
 
       </div>
       

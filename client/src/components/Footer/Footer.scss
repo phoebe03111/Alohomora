@@ -1,19 +1,27 @@
-@use '../../styles/partials/global';
-@use '../../styles/partials/mixins';
-@use '../../styles/partials/typography';
-@use '../../styles/partials/variables';
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/typography' as *;
+@use '../../styles/partials/variables' as *;
 .footer {
    position: fixed;
    bottom: 0;
    right: 0;
    left: 0;
    width: 100%;
+   background-color: ;
+   
   
   &__wrapper {
-    padding: 20px 20px;
+    padding: 60px 187px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     background-color: grey;
+  }
+  &__item {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    
   }
 }
