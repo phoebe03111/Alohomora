@@ -1,50 +1,44 @@
-@use '../../styles/partials/global.scss' as *;
-@use '../../styles/partials/typography.scss' as *;
-@use '../../styles/partials/mixins.scss' as *;
-@use '../../styles/partials/variables.scss' as *;
+@use "../../styles/partials/global.scss" as *;
+@use "../../styles/partials/typography.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
 .header {
-  padding-left: 119px;
-  padding-right: 119px;
-  background-color: #A0A0A0;
-  display: flex;
-  justify-content: space-between;
+  padding: 1rem 3rem;
+  @include flexbox(row, space-between, center);
   width: 100%;
   background-color: $primary-green;
-  height: 100px;
-  
 
-  &__image-wrapper {
-    align-self: center;
-
-  }
   &__logo {
-    font-style: normal;
     color: $primary-white;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 72px;
-
+    @include heading;
   }
-
 
   &__left-menu {
     width: 40%;
-    display: flex;
-    justify-content: space-between;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    align-items: center;
+    @include flexbox(row, space-between, center);
   }
 
   &__profile {
     height: 40px;
     width: 40px;
-    align-self: center;
     color: $primary-white;
   }
-  &__explore,&__about,&__contact{
+
+  &__link {
     color: $primary-white;
+    &:hover {
+      cursor: pointer;
+    }
   }
+
+  &__explore,
+  &__about,
+  &__contact {
+    color: inherit;
+    @include heading4;
+  }
+}
+
+.active {
+  color: $hover-green;
 }
