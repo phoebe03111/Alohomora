@@ -3,8 +3,41 @@
 @use "../../styles/partials/global" as *;
 
 .explore {
-  padding: 6rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+
+  &__header {
+    @include page-header;
+    padding: 2rem 6rem;
+  }
+
+  &__category {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__tag {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+
+    &:hover {
+      opacity: 0.9;
+      transform: scale(0.96);
+      cursor: pointer;
+    }
+  }
+
+  &__topic {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+  }
+
+  &__card-group {
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
