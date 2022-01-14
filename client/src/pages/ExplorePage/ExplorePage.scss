@@ -4,6 +4,12 @@
 
 .explore {
   margin-bottom: 5rem;
+
+
+  &__header {
+    // @include page-header;
+    padding: 2rem 6rem;
+
   
   &__top {
     @include page-header;
@@ -12,6 +18,7 @@
 
   &__header {
     margin-bottom: 2rem;
+
   }
 
   &__category {

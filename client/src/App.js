@@ -7,15 +7,15 @@ import {
   Route,
 } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
-import CategoryPage from "./pages/CategoryPage/CategoryPage";
 import StorePage from "./pages/StorePage/StorePage";
 import Footer from "./components/Footer/Footer";
 import ExplorePage from "./pages/ExplorePage/ExplorePage";
 import Header from "./components/Header/Header";
-import Modal from "./components/Modal/Modal";
 import ContactPage from "../src/pages/ContactPage/ContactPage";
 import AboutPage from "../src/pages/AboutPage/AboutPage";
+import DetailedActivityPage from "./pages/DetailedActivityPage/DetailedActivityPage";
 import FilteredResultsPage from "./pages/FilteredResultsPage/FilteredResultsPage";
+
 
 // the routes here are open to changes
 function App() {
@@ -23,8 +23,8 @@ function App() {
     <BrowserRouter className="app">
       <Header />
       <Switch>
+        <Route path="/explore/:id" component={DetailedActivityPage} />
         <Route path="/store/:id" component={StorePage} />
-        <Route path="/test" component={Modal} />
         <Route path="/explore" component={ExplorePage} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/about" component={AboutPage} />
