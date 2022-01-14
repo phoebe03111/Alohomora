@@ -10,9 +10,9 @@ import whiteHeart from "../../assets/icons/whiteHeart.svg";
 import "./DetailedActivityPage.scss";
 
 const DetailedActivityPage = () => {
-  const [isliked, setIsliked] = useState(false);
+  const [isLiked, setIsLiked] = useState(false);
   const handleToggleLike = () => {
-    setIsliked(!isliked);
+    setIsLiked(!isLiked);
   };
 
   return (
@@ -44,22 +44,13 @@ const DetailedActivityPage = () => {
           <div className="detailedActivity__bio">
             <div className="detailedActivity__headline">
               <h1 className="detailedActivity__name">Pizza Making at Nook</h1>
-              {isliked && (
-                <img
-                  className="detailedActivity__like"
-                  src={heart}
-                  alt="like"
-                  onClick={handleToggleLike}
-                />
-              )}
-              {!isliked && (
-                <img
-                  className="detailedActivity__like"
-                  src={whiteHeart}
-                  alt="like"
-                  onClick={handleToggleLike}
-                />
-              )}
+
+              <img
+                className="detailedActivity__like"
+                src={isLiked ? heart : whiteHeart}
+                alt="like"
+                onClick={handleToggleLike}
+              />
             </div>
             <p className="detailedActivity__location">
               1525 Yew St, Vancouver, BC V6K 3E5
