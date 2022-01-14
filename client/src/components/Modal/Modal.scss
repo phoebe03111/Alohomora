@@ -8,7 +8,8 @@
   padding-top: 5rem;
 
   .filter-form {
-    padding: 1rem 2rem;
+    padding-top: 1rem;
+    padding-left: 4rem;
     padding-top: 0;
     background-color: white;
     border-radius: 0.625rem;
@@ -69,7 +70,7 @@
 
     ///////////////////////price range & number of people
     &__entries {
-      margin-top: 1rem;
+      margin-top: 1.5rem;
     }
 
     &__range {
@@ -102,7 +103,8 @@
     ///////////////////////bottom
     &__bottom {
       width: 100%;
-      margin-top: 1rem;
+      padding-right: 2rem;
+      padding-bottom: 1rem;
       @include flexbox(row, flex-end, center);
     }
   }
