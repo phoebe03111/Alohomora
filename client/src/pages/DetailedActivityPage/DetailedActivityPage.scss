@@ -15,6 +15,53 @@
 
   /////////////////////
   &__info {
-    @include flexbox(row, flex-end, center);
+    margin: 2rem 0;
+    @include flexbox(row, flex-end, flex-start);
+  }
+
+  &__left {
+    width: 15rem;
+    height: 20rem;
+    margin-right: 2rem;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  ///////////////////
+  &__right {
+    width: 65%;
+  }
+
+  &__location {
+    margin: 0.5rem 0;
+  }
+
+  &__tag-container {
+    margin: 1rem 0;
+    @include flexbox(row, flex-start, center);
+  }
+
+  &__tag {
+    padding: 0.5rem 1rem;
+    background-color: gray;
+    border-radius: 8px;
+  }
+
+  &__icon {
+    height: 1rem;
+    width: 1rem;
+    margin-left: 1rem;
+  }
+
+  &__text-container {
+    max-width: 30rem;
+  }
+
+  &__text {
+    margin-bottom: 1rem;
   }
 }

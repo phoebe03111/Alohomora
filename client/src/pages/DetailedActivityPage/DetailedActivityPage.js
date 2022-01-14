@@ -25,26 +25,37 @@ const DetailedActivityPage = () => {
         </div>
 
         <div className="detailedActivity__right">
-          <h1 className="detailedActivity__name">Pizza Making at Nook</h1>
-          <p className="detailedActivity__location">
-            1525 Yew St, Vancouver, BC V6K 3E5
-          </p>
-          <p className="detailedActivity__phone">(604) 734-0099</p>
-        </div>
-        <div className="detailedActivity__tag">
-          <p>In-person & Online</p>
-          <img className="detailedActivity__icon" src={wine} alt="drink" />
-          <p className="detailedActivity__text">
-            Make pizza with your team in-person or from the comfort of your
-            home. We truly believe that everybody can prepare excellent pizzas
-            at home. Therefore, everyone will have fun kneading, by hand, their
-            own pizza dough. This experience includes alcohol. Only guests who
-            meet the legal drinking age will be served alcoholic beverages.
-          </p>
-          <ul className="detailedActivity__policy">Vaccination Policy:</ul>
-          <li className="detailedActivity__policy-info">
-            we require our attendees to be fully vaccinated.
-          </li>
+          <div className="detailedActivity__bio">
+            <h1 className="detailedActivity__name">Pizza Making at Nook</h1>
+            <p className="detailedActivity__location">
+              1525 Yew St, Vancouver, BC V6K 3E5
+            </p>
+            <p className="detailedActivity__phone">(604) 734-0099</p>
+          </div>
+
+          <div className="detailedActivity__tag-container">
+            <p className="detailedActivity__tag">In-person & Online</p>
+            <img className="detailedActivity__icon" src={wine} alt="drink" />
+          </div>
+          <div className="detailedActivity__text-container">
+            <p className="detailedActivity__text">
+              Make pizza with your team in-person or from the comfort of your
+              home.
+            </p>
+            <p className="detailedActivity__text">
+              We truly believe that everybody can prepare excellent pizzas at
+              home. Therefore, everyone will have fun kneading, by hand, their
+              own pizza dough.
+            </p>
+            <p className="detailedActivity__text">
+              This experience includes alcohol. Only guests who meet the legal
+              drinking age will be served alcoholic beverages.
+            </p>
+            <ul className="detailedActivity__policy">Vaccination Policy:</ul>
+            <li className="detailedActivity__policy-info">
+              we require our attendees to be fully vaccinated.
+            </li>
+          </div>
         </div>
       </section>
     </main>
