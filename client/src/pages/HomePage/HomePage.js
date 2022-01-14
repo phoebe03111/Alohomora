@@ -38,9 +38,9 @@ const HomePage = () => {
         </div>
 
         <div className="trending__logos">
-          <img className="trending__logo" src="#" alt="logo" />
-          <img className="trending__logo" src="#" alt="logo" />
-          <img className="trending__logo" src="#" alt="logo" />
+          <img className="trending__logo" src={bcTecLogo} alt="logo" />
+          <img className="trending__logo" src={brainstationLogo} alt="logo" />
+          <img className="trending__logo" src={bcLogo} alt="logo" />
         </div>
       </article>
     </div>

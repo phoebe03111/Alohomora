@@ -4,12 +4,14 @@
 @use '../../styles/partials/variables.scss' as *;
 .hero {
   &__wrapper {
-    background-image: url('../../assets/images/activities/cookie.png') ;
+    background: linear-gradient(#32323250, #32323250),
+  url('../../assets/images/hero.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
     position: relative;
+    // opacity: 0.8;
   }
   &__content{
     position: absolute;
