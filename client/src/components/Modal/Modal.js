@@ -113,7 +113,7 @@ const Modal = (props) => {
           </div>
         </div>
         <div className="filter-form__bottom">
-          <Link to={"/explore/result/1"}>
+          <Link to="/explore/result">
             <button className="filter-form__button">Apply Filters</button>
           </Link>
         </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import Tag from "../../components/Tag/Tag";
 import ColoredTag from "../../components/ColoredTag/ColoredTag";
-import Card from "../../components/Card/Card";
 import filterIcon from "../../assets/icons/filter.png";
 import "./FilteredResultsPage.scss";
+import CardGroup3 from "../../components/CardGroup3/CardGroup3";
 
 function FilteredResultsPage() {
   return (
@@ -39,8 +39,7 @@ function FilteredResultsPage() {
       </div>
 
       <div className="search__cards">
-        <Card />
-        <Card />
+        <CardGroup3 />
       </div>
     </main>
   );

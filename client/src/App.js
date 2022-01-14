@@ -24,7 +24,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/explore/result/:id" component={DetailedActivityPage} />
-        <Route path="/explore/result" component={FilteredResultsPage} />
+        <Route path="/explore/result" exact component={FilteredResultsPage} />
         <Route path="/store/:id" component={StorePage} />
         <Route path="/" exact component={HomePage} />
         <Route path="/explore" exact component={ExplorePage} />
