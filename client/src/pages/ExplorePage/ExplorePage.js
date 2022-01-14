@@ -1,8 +1,15 @@
 import React from "react";
-import './ExplorePage.scss';
+import CardGroup from "../../components/CardGroup/CardGroup";
+import "./ExplorePage.scss";
 
 function ExplorePage() {
-  return <div>explore page</div>;
+  return (
+    <div className="explore">
+      <CardGroup />
+      <CardGroup />
+      <CardGroup />
+    </div>
+  );
 }
 
 export default ExplorePage;

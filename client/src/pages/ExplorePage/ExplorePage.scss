@@ -1,1 +1,10 @@
-// this is a scss file
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/global" as *;
+
+.explore {
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
