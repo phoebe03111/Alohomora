@@ -1,4 +1,20 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+
 .detailedActivity {
   width: 100%;
   padding: 2rem 3rem;
+
+  &__routes {
+    @include flexbox(row, flex-start, center);
+  }
+
+  &__link {
+    margin-right: 1rem;
+  }
+
+  /////////////////////
+  &__info {
+    @include flexbox(row, flex-end, center);
+  }
 }

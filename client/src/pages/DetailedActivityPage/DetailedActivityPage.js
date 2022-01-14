@@ -15,8 +15,8 @@ const DetailedActivityPage = () => {
         <p className="detailedActivity__link"> Food & Drink </p>
       </div>
 
-      <section className="detailedActivity__left">
-        <div className="detailedActivity__image-container">
+      <section className="detailedActivity__info">
+        <div className="detailedActivity__left">
           <img
             className="detailedActivity__image"
             src={storeImage}
