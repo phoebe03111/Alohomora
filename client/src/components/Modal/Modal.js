@@ -1,15 +1,21 @@
 import "./Modal.scss";
 import close from "../../assets/icons/close.svg";
+import { Link } from "react-router-dom";
 
 import React from "react";
 
-const Modal = () => {
+const Modal = (props) => {
   return (
     <div className="modal">
       <form className="filter-form">
         <div className="filter-form__head">
           <h1 className="filter-form__title">More Filters</h1>
-          <img src={close} alt="close" className="filter-form__close" />
+          <img
+            src={close}
+            alt="close"
+            className="filter-form__close"
+            onClick={props.handleClose}
+          />
         </div>
 
         <div className="filter-form__access">
@@ -107,7 +113,9 @@ const Modal = () => {
           </div>
         </div>
         <div className="filter-form__bottom">
-          <button className="filter-form__button">Apply Filters</button>
+          <Link to={"/explore/result/1"}>
+            <button className="filter-form__button">Apply Filters</button>
+          </Link>
         </div>
       </form>
     </div>

@@ -3,7 +3,8 @@
 @use "../../styles/partials/global" as *;
 
 .explore {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
 
   &__header {
     // @include page-header;
