@@ -9,6 +9,7 @@ import {
 import HomePage from "./pages/HomePage/HomePage";
 import CategoryPage from "./pages/CategoryPage/CategoryPage";
 import StorePage from "./pages/StorePage/StorePage";
+import Footer from "./components/Footer/Footer";
 
 // the routes here are open to changes
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Redirect to="/" exact component={HomePage} />
         </Route>
       </Switch>
+      <Footer/>
     </BrowserRouter>
   );
 }
