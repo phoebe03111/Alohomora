@@ -4,6 +4,7 @@
 .detailedActivity {
   width: 100%;
   padding: 3rem 4rem;
+  margin-bottom: 5rem;
 
   &__routes {
     @include flexbox(row, flex-start, center);
