@@ -9,23 +9,31 @@ import {
 import HomePage from "./pages/HomePage/HomePage";
 import CategoryPage from "./pages/CategoryPage/CategoryPage";
 import StorePage from "./pages/StorePage/StorePage";
+import Footer from "./components/Footer/Footer";
+import ExplorePage from "./pages/ExplorePage/ExplorePage";
 import Header from "./components/Header/Header";
 import Modal from "./components/Modal/Modal";
+import ContactPage from "../src/pages/ContactPage/ContactPage";
+import AboutPage from "../src/pages/AboutPage/AboutPage";
 
 // the routes here are open to changes
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter className="app">
       <Header />
       <Switch>
         <Route path="/category/:id" component={CategoryPage} />
         <Route path="/store/:id" component={StorePage} />
         <Route path="/test" component={Modal} />
+        <Route path="/explore" component={ExplorePage} />
+        <Route path="/contact" component={ContactPage} />
+        <Route path="/about" component={AboutPage} />
         <Route path="/" exact component={HomePage} />
         <Route path="*">
           <Redirect to="/" exact component={HomePage} />
         </Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
