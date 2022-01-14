@@ -3,10 +3,12 @@
 @use "../../styles/partials/global" as *;
 
 .explore {
-
+  margin-bottom: 5rem;
+  
   &__header {
     @include page-header;
     padding: 2rem 6rem;
+    
   }
 
   &__category {
