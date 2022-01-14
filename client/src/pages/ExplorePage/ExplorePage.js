@@ -10,7 +10,7 @@ function ExplorePage() {
       <div className="explore__top">
         <h1 className="explore__header">Explore Activities</h1>
         <div>
-          <div>
+          <div className="explore__content">
             <div className="explore__category">
               <Tag>Arts & Culture</Tag>
               <Tag>FItness & Wellness</Tag>
@@ -26,18 +26,31 @@ function ExplorePage() {
                 More Filters
               </Tag>
             </div>
-            <div className="explore__search-bar"></div>
+
+            <div className="explore__search-container">
+              <input
+                type="text"
+                className="explore__search-bar"
+                placeholder="search"
+              />
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="explore__card-group">
-        <h3 className="explore__topic">trending</h3>
-        <CardGroup />
-        <h3 className="explore__topic">new this week</h3>
-        <CardGroup />
-        <h3 className="explore__topic">outdoors</h3>
-        <CardGroup />
+      <div className="explore__card-container">
+        <div className="explore__card-group">
+          <h3 className="explore__topic">trending</h3>
+          <CardGroup />
+        </div>
+        <div className="explore__card-group">
+          <h3 className="explore__topic">new this week</h3>
+          <CardGroup />
+        </div>
+        <div className="explore__card-group">
+          <h3 className="explore__topic">outdoors</h3>
+          <CardGroup />
+        </div>
       </div>
     </main>
   );
