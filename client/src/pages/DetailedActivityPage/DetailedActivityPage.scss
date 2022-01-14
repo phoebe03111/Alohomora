@@ -15,7 +15,8 @@
 
   /////////////////////
   &__info {
-    margin: 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
     @include flexbox(row, center, flex-start);
     gap: 2rem;
   }
