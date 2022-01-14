@@ -9,9 +9,12 @@ function Card() {
   };
   return (
     <div className="card">
-      <h1 className="card__title">{fakeData.name}</h1>
       <div className="card__img-container">
         <img className="card__img" src={fakeData.image_url} alt="" />
+      </div>
+      <div className="card__text-container">
+        <h1 className="card__title">{fakeData.name}</h1>
+        <p className="card__description">Description of the activity</p>
       </div>
     </div>
   );
