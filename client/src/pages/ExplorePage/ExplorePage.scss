@@ -14,6 +14,11 @@
     padding: 2rem 6rem;
   }
 
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__category {
     display: flex;
     gap: 1rem;
@@ -25,17 +30,34 @@
     width: 1px;
   }
 
+  &__search {
+    &-bar {
+      border: 1.5px solid #444444;
+      background: url("../../assets/icons/search.png");
+      background-position: right 5% bottom 45%;
+      background-repeat: no-repeat;
+    }
+  }
+
   &__topic {
     text-transform: capitalize;
     font-size: 1.5rem;
     color: $primary-green;
   }
 
-  &__card-group {
-    padding: 2rem 6rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  &__card {
+    &-container {
+      padding: 2rem 6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3.5rem;
+    }
+
+    &-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
   }
 }
 
