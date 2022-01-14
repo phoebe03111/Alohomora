@@ -3,7 +3,8 @@
 @use "../../styles/partials/mixins.scss" as *;
 @use "../../styles/partials/variables.scss" as *;
 .header {
-  padding: 1rem 3rem;
+  padding: 0 3rem;
+  padding-top: 1rem;
   @include flexbox(row, space-between, center);
   width: 100%;
   background-color: $primary-green;
@@ -35,10 +36,11 @@
   &__about,
   &__contact {
     color: inherit;
+    padding-bottom: 1rem;
     @include heading4;
   }
 }
 
 .active {
-  color: $hover-green;
+  border-bottom: 2px solid $primary-white;
 }
