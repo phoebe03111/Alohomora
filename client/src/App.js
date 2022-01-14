@@ -9,6 +9,7 @@ import {
 import HomePage from "./pages/HomePage/HomePage";
 import CategoryPage from "./pages/CategoryPage/CategoryPage";
 import StorePage from "./pages/StorePage/StorePage";
+import Footer from "./components/Footer/Footer";
 import ExplorePage from "./pages/ExplorePage/ExplorePage";
 import Header from "./components/Header/Header";
 
@@ -16,6 +17,7 @@ import Header from "./components/Header/Header";
 function App() {
   return (
     <BrowserRouter className='app'>
+      <Header/>
       <Switch>
         <Route path="/category/:id" component={CategoryPage} />
         <Route path="/store/:id" component={StorePage} />
@@ -25,6 +27,7 @@ function App() {
           <Redirect to="/" exact component={HomePage} />
         </Route>
       </Switch>
+      <Footer/>
     </BrowserRouter>
   );
 }
