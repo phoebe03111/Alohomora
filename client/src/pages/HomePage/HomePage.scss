@@ -60,12 +60,32 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 120px;
-    padding: 40px;
+    
   }
-  &__logo {
-    background-color: grey;
+  &__logo { 
     padding: 12px 6px;
     border-radius: 4px;
+    height: 150px;
+  }
+  &__bs { 
+    padding: 12px 6px;
+    border-radius: 4px;
+    height: 200px;
+  }
+  &__bc { 
+    padding: 12px 6px;
+    border-radius: 4px;
+    height: 120px;
+  }
+  &__partner {
+    padding-top: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: $primary-green;
   }
 }
