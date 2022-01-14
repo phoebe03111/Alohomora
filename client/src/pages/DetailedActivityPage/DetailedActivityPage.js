@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import wine from "../../assets/icons/wine.svg";
+import star from "../../assets/icons/star.svg";
 import pizza1 from "../../assets/images/pizza1.png";
 import pizza2 from "../../assets/images/pizza2.jpg";
 import pizza3 from "../../assets/images/pizza3.jpg";
@@ -52,6 +53,11 @@ const DetailedActivityPage = () => {
                 onClick={handleToggleLike}
               />
             </div>
+            <div className="detailedActivity__star-line">
+              <img className="detailedActivity__star" src={star} alt="star" />
+              <span className="detailedActivity__star-count">4.5 </span>
+              <span>(4)</span>
+            </div>
             <p className="detailedActivity__location">
               1525 Yew St, Vancouver, BC V6K 3E5
             </p>
@@ -60,7 +66,8 @@ const DetailedActivityPage = () => {
 
           <div className="detailedActivity__tag-container">
             <p className="detailedActivity__tag">In-person & Online</p>
-            <img className="detailedActivity__icon" src={wine} alt="drink" />
+            <p className="detailedActivity__tag">Duration - 4hrs</p>
+            <p className="detailedActivity__tag">$50 CAD / person</p>
           </div>
           <div className="detailedActivity__text-container">
             <p className="detailedActivity__text">
@@ -71,14 +78,10 @@ const DetailedActivityPage = () => {
               home. Therefore, everyone will have fun kneading, by hand, their
               own pizza dough.
             </p>
-            <p className="detailedActivity__text">
-              This experience includes alcohol. Only guests who meet the legal
-              drinking age will be served alcoholic beverages.
-            </p>
-            <ul className="detailedActivity__policy">Vaccination Policy:</ul>
-            <li className="detailedActivity__policy-info">
-              we require our attendees to be fully vaccinated.
-            </li>
+            <div className="detailedActivity__warning">
+              <img className="detailedActivity__icon" src={wine} alt="drink" />
+              <span>This experience includes alcohol.</span>
+            </div>
           </div>
           <div className="detailedActivity__button-container">
             <button className="detailedActivity__button">
