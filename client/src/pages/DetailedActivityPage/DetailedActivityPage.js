@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import wine from "../../assets/icons/wine.svg";
-import storeImage from "../../assets/images/vancouver.jpg";
+import pizza1 from "../../assets/images/pizza1.png";
+import heart from "../../assets/icons/heart.svg";
 import "./DetailedActivityPage.scss";
 
 const DetailedActivityPage = () => {
@@ -19,14 +20,17 @@ const DetailedActivityPage = () => {
         <div className="detailedActivity__left">
           <img
             className="detailedActivity__image"
-            src={storeImage}
+            src={pizza1}
             alt="store-image"
           />
         </div>
 
         <div className="detailedActivity__right">
           <div className="detailedActivity__bio">
-            <h1 className="detailedActivity__name">Pizza Making at Nook</h1>
+            <div className="detailedActivity__headline">
+              <h1 className="detailedActivity__name">Pizza Making at Nook</h1>
+              <img src={heart} alt="like" />
+            </div>
             <p className="detailedActivity__location">
               1525 Yew St, Vancouver, BC V6K 3E5
             </p>

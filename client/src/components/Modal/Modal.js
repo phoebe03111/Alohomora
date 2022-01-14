@@ -47,67 +47,62 @@ const Modal = () => {
             The average price of an activity per person is $38
           </p>
           <div className="filter-form__range">
-            <div className="filter-form__range-side">
-              <p>min</p>
-              <input type="text" name="min" />
-            </div>
-            <div className="filter-form__range-mid"> —— </div>
-            <div className="filter-form__range-side">
-              <p>max</p>
-              <input type="text" name="max" />
-            </div>
+            <input type="text" name="min" placeholder="min $5" />
+            <p className="filter-form__range-mid"> —— </p>
+            <input type="text" name="max" placeholder="max $600" />
           </div>
         </div>
 
         <div className="filter-form__entries">
           <h2 className="filter-form__subtitle"> Numer of People</h2>
           <div className="filter-form__range">
-            <div className="filter-form__range-side">
-              <p>min</p>
-              <input type="text" name="min" />
-            </div>
+            <input type="text" name="min" placeholder="min 2" />
             <div className="filter-form__range-mid"> —— </div>
-            <div className="filter-form__range-side">
-              <p>max</p>
-              <input type="text" name="max" />
-            </div>
+            <input type="text" name="max" placeholder="max 500+" />
           </div>
         </div>
 
         <div className="filter-form__entries">
           <h2 className="filter-form__subtitle"> Activity Type</h2>
           <div className="filter-form__activity">
-            <div className="filter-form__activity-item">
-              <input type="checkbox" id="art-culture" value="art-culture" />
-              <label className="filter-form__label" htmlFor="art-culture">
-                Art&Culture
-              </label>
+            <div className="filter-form__activity-part">
+              <div className="filter-form__activity-item">
+                <input type="checkbox" id="art-culture" value="art-culture" />
+                <label className="filter-form__label" htmlFor="art-culture">
+                  Art & Culture
+                </label>
+              </div>
+              <div className="filter-form__activity-item">
+                <input
+                  type="checkbox"
+                  id="fitness-wellness"
+                  value="fitness-wellness"
+                />
+                <label
+                  className="filter-form__label"
+                  htmlFor="fitness-wellness"
+                >
+                  Fitness & Wellness
+                </label>
+              </div>
             </div>
-            <div className="filter-form__activity-item">
-              <input
-                type="checkbox"
-                id="fitness-wellness"
-                value="fitness-wellness"
-              />
-              <label className="filter-form__label" htmlFor="fitness-wellness">
-                Fitness&Wellness
-              </label>
-            </div>
-            <div className="filter-form__activity-item">
-              <input type="checkbox" id="food-drink" value="food-drink" />
-              <label className="filter-form__label" htmlFor="food-drink">
-                Food&Drink
-              </label>
-            </div>
-            <div className="filter-form__activity-item">
-              <input
-                type="checkbox"
-                id="nature-outdoors"
-                value="nature-outdoors"
-              />
-              <label className="filter-form__label" htmlFor="nature-outdoors">
-                Nature&Outdoors
-              </label>
+            <div className="filter-form__activity-part">
+              <div className="filter-form__activity-item">
+                <input type="checkbox" id="food-drink" value="food-drink" />
+                <label className="filter-form__label" htmlFor="food-drink">
+                  Food & Drink
+                </label>
+              </div>
+              <div className="filter-form__activity-item">
+                <input
+                  type="checkbox"
+                  id="nature-outdoors"
+                  value="nature-outdoors"
+                />
+                <label className="filter-form__label" htmlFor="nature-outdoors">
+                  Nature & Outdoors
+                </label>
+              </div>
             </div>
           </div>
         </div>

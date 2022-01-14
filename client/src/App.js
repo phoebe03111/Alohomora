@@ -14,8 +14,8 @@ import Header from "./components/Header/Header";
 import ContactPage from "../src/pages/ContactPage/ContactPage";
 import AboutPage from "../src/pages/AboutPage/AboutPage";
 import DetailedActivityPage from "./pages/DetailedActivityPage/DetailedActivityPage";
+import Modal from "./components/Modal/Modal";
 import FilteredResultsPage from "./pages/FilteredResultsPage/FilteredResultsPage";
-
 
 // the routes here are open to changes
 function App() {
@@ -26,6 +26,7 @@ function App() {
         <Route path="/explore/:id" component={DetailedActivityPage} />
         <Route path="/store/:id" component={StorePage} />
         <Route path="/explore" component={ExplorePage} />
+        <Route path="/test" component={Modal} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/filteredResults" component={FilteredResultsPage} />
