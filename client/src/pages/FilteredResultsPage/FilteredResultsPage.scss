@@ -5,8 +5,45 @@
 .search {
   margin-bottom: 5rem;
 
-  &__header {
+  &__top {
     @include page-header;
     padding: 2rem 6rem;
   }
+
+  &__header {
+    margin-bottom: 2rem;
+  }
+
+  &__category {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-left {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    &-right {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 6rem;
+  }
+}
+
+.filter-icon {
+  width: 2rem;
+  margin-left: 0.5rem;
 }

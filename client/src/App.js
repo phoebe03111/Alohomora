@@ -22,7 +22,6 @@ function App() {
     <BrowserRouter className="app">
       <Header />
       <Switch>
-        <Route path="/category/:id" component={CategoryPage} />
         <Route path="/store/:id" component={StorePage} />
         <Route path="/explore" component={ExplorePage} />
         <Route path="/contact" component={ContactPage} />

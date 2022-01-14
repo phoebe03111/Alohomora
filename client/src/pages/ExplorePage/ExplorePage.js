@@ -6,8 +6,8 @@ import "./ExplorePage.scss";
 function ExplorePage() {
   return (
     <main className="explore">
-      <div className="explore__header">
-        <h1>Explore Activities</h1>
+      <div className="explore__top">
+        <h1 className="explore__header">Explore Activities</h1>
         <div>
           <div className="explore__category">
             <Tag>Arts & Culture</Tag>
