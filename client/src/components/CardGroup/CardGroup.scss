@@ -1,6 +1,8 @@
 .card-group {
-    display: flex;
-    gap: 2rem;
-    // overflow: scroll;
-    width: 100%;
+  display: flex;
+  gap: 2rem;
+  // overflow: scroll;
+  width: 100%;
+  overflow-x: scroll;
+  padding: 1.5rem 0;
 }
