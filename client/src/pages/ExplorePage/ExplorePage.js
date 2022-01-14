@@ -1,6 +1,7 @@
 import React from "react";
 import Tag from "../../components/Tag/Tag";
 import CardGroup from "../../components/CardGroup/CardGroup";
+import filterIcon from "../../assets/icons/filter.png";
 import "./ExplorePage.scss";
 
 function ExplorePage() {
@@ -9,11 +10,23 @@ function ExplorePage() {
       <div className="explore__top">
         <h1 className="explore__header">Explore Activities</h1>
         <div>
-          <div className="explore__category">
-            <Tag>Arts & Culture</Tag>
-            <Tag>FItness & Wellness</Tag>
-            <Tag>Food & Drinks</Tag>
-            <Tag>Nature & Outdoors</Tag>
+          <div>
+            <div className="explore__category">
+              <Tag>Arts & Culture</Tag>
+              <Tag>FItness & Wellness</Tag>
+              <Tag>Food & Drinks</Tag>
+              <Tag>Nature & Outdoors</Tag>
+              <div className="explore__divide-line"></div>
+              <Tag>
+                <img
+                  className="filter-icon"
+                  src={filterIcon}
+                  alt="filter icon"
+                />
+                More Filters
+              </Tag>
+            </div>
+            <div className="explore__search-bar"></div>
           </div>
         </div>
       </div>

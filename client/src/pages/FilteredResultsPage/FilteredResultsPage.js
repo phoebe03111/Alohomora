@@ -1,7 +1,7 @@
 import React from "react";
 import Tag from "../../components/Tag/Tag";
 import Card from "../../components/Card/Card";
-import filterIcon from "../../assets/icons/filter.svg";
+import filterIcon from "../../assets/icons/filter.png";
 import "./FilteredResultsPage.scss";
 
 function FilteredResultsPage() {

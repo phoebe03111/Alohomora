@@ -1,13 +1,23 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/global" as *;
+
 .tag {
-    background-color: gray;
-    color: white;
-    border-radius: 10px;
-    padding: 0.5rem;
-    font-size: 1rem;
-  
-    &:hover {
-      opacity: 0.9;
-      transform: scale(0.96);
-      cursor: pointer;
-    }
+  background-color: $primary-white;
+  color: $primary-gray;
+  border: 0.66px solid #444444;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  &:hover {
+    background-color: $primary-green;
+    color: $primary-white;
+    transform: scale(0.96);
+    cursor: pointer;
   }
+}

@@ -5,30 +5,30 @@
 .explore {
   margin-bottom: 5rem;
 
-
   &__header {
     // @include page-header;
-    padding: 2rem 6rem;
-
-  
+    margin-bottom: 2rem;
+  }
   &__top {
     // @include page-header;
-    padding: 2rem 6rem; 
-  }
-
-  &__header {
-    margin-bottom: 2rem;
-
+    padding: 2rem 6rem;
   }
 
   &__category {
     display: flex;
-    
+    gap: 1rem;
+  }
+
+  &__divide-line {
+    background-color: #444444;
+    height: 42px;
+    width: 1px;
   }
 
   &__topic {
     text-transform: capitalize;
     font-size: 1.5rem;
+    color: $primary-green;
   }
 
   &__card-group {
@@ -38,4 +38,7 @@
     gap: 2rem;
   }
 }
+
+.filter-icon {
+  width: 1rem;
 }
