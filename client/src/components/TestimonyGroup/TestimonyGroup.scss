@@ -1,19 +1,35 @@
+@use '../../styles/partials/global.scss' as *;
+@use '../../styles/partials/variables.scss' as *;
+@use '../../styles/partials/typography.scss' as *;
+@use '../../styles/partials/mixins.scss' as *;
 .testimonies {
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    padding: 100px;
+    
+    // // position: fixed;
+    // bottom: 0;
+    // right: 0;
+    // left: 0;
+    // width: 100%;
+    // padding: 100px;
     &__wrapper {
+      
+      padding: 1rem 0px;
       display: flex;
       gap: 2rem;
-      overflow: scroll;   
+      overflow-x: scroll;   
 
     }
     &__title {
       text-align: center;
       padding: 16px;
     }
+    &__rating-wraper{
+      text-align: center;
+    }
+  &__rating {
+    color: $primary-green;
+  }
+
+
+  
 }

@@ -7,6 +7,7 @@ import pizza2 from "../../assets/images/pizza2.jpg";
 import pizza3 from "../../assets/images/pizza3.jpg";
 import heart from "../../assets/icons/heart.svg";
 import whiteHeart from "../../assets/icons/whiteHeart.svg";
+import TestimonyGroup from "../../components/TestimonyGroup/TestimonyGroup";
 
 import "./DetailedActivityPage.scss";
 
@@ -22,7 +23,7 @@ const DetailedActivityPage = () => {
         <Link to={"/explore"}>
           <p className="detailedActivity__link">Explore Activity</p>
         </Link>
-        <p className="detailedActivity__link"> > </p>
+        <p className="detailedActivity__link">  </p>
         <p className="detailedActivity__link"> Food & Drink </p>
       </div>
 
@@ -90,6 +91,8 @@ const DetailedActivityPage = () => {
           </div>
         </div>
       </section>
+
+      <TestimonyGroup/>
 
       {/*   here is for testimonials component */}
     </main>

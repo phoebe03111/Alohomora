@@ -65,6 +65,8 @@ function ExplorePage() {
           <CardGroup2 />
         </div>
       </div>
+
+     
     </main>
   );
 }
