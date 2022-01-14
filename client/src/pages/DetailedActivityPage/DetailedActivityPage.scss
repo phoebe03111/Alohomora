@@ -15,7 +15,8 @@
 
   /////////////////////
   &__info {
-    margin: 2rem 0;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
     @include flexbox(row, center, flex-start);
     gap: 2rem;
   }
@@ -75,9 +76,22 @@
     @include heading3;
   }
 
+  &__star-line {
+    margin-top: 0.5rem;
+  }
+
+  &__star {
+    margin-left: 0.25rem;
+  }
+
+  &__star-count {
+    @include card-description;
+    color: $primary-green;
+  }
+
   &__location {
     @include card-description;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   &__phone {
@@ -88,24 +102,30 @@
   //////////////////////
   &__tag-container {
     margin: 2rem 0;
-    @include flexbox(row, flex-start, center);
+    @include flexbox(row, space-between, center);
   }
 
   &__tag {
-    padding: 0.3rem 1rem;
+    padding: 0.3rem 0.5rem;
     border: 1px solid $primary-gray;
     border-radius: 8px;
+    @include card-description;
   }
 
   &__icon {
     height: 1rem;
     width: 1rem;
-    margin-left: 1rem;
+    margin-right: 1rem;
     transform: scale(1.4);
   }
 
   &__text-container {
     // max-width: 30rem;
+  }
+
+  &__warning {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   &__text {
