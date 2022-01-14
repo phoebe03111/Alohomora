@@ -19,7 +19,7 @@ export default function data() {
     },
     {
       id: 2,
-      name: "Pizaa Making",
+      name: "Pizza Making",
       img_src: pizzaImg,
       description: "Make pizza with your team in-person or from your home.",
     },
@@ -71,7 +71,7 @@ export default function data() {
     },
     {
       id: 10,
-      name: "Pizaa Making",
+      name: "Pizza Making",
       img_src: pizzaImg,
       description: "Make pizza with your team in-person or from your home.",
     },
