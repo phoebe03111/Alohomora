@@ -58,6 +58,8 @@ const DetailedActivityPage = () => {
           </div>
         </div>
       </section>
+
+      {/*   here is for testimonials component */}
     </main>
   );
 };
