@@ -1,15 +1,15 @@
-@use '../../styles/partials/global.scss';
-@use '../../styles/partials/mixins.scss';
-@use '../../styles/partials/typography.scss';
-@use '../../styles/partials/variables.scss';
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
 
 .about {
-  &__wrapper {
-    width: 80%;
-    margin: auto;
-    padding: 32px;
-  }
-  &__header {
-    padding-bottom: 16px;
+  margin: 4rem;
+  color: $primary-green;
+  height: 68vh;
+
+  &__text {
+    padding: 0 4rem;
+    margin-top: 1rem;
+    @include body2;
+    line-height: 2;
   }
 }
