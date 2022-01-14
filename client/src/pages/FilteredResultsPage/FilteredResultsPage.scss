@@ -1,1 +1,12 @@
-// scss
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/global" as *;
+
+.search {
+  margin-bottom: 5rem;
+
+  &__header {
+    @include page-header;
+    padding: 2rem 6rem;
+  }
+}
