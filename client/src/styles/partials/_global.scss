@@ -28,7 +28,7 @@ button {
   &:active {
     cursor: pointer;
     color: $primary-white;
-    background-color: $primary-black;
+    background-color: $hover-green;
     box-shadow: 0 2px 8px rgba(253, 253, 253, 0.685);
   }
 

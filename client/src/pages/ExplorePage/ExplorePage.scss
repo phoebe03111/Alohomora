@@ -3,7 +3,8 @@
 @use "../../styles/partials/global" as *;
 
 .explore {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  position: relative;
 
   &__header {
     // @include page-header;
@@ -12,6 +13,11 @@
   &__top {
     // @include page-header;
     padding: 2rem 6rem;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
   }
 
   &__category {
@@ -25,17 +31,35 @@
     width: 1px;
   }
 
+  &__search {
+    &-bar {
+      border: 1.5px solid #444444;
+      background: url("../../assets/icons/search.png");
+      background-position: right 5% bottom 45%;
+      background-repeat: no-repeat;
+      font-size: 1rem;
+    }
+  }
+
   &__topic {
     text-transform: capitalize;
     font-size: 1.5rem;
     color: $primary-green;
   }
 
-  &__card-group {
-    padding: 2rem 6rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  &__card {
+    &-container {
+      padding: 2rem 6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 3.5rem;
+    }
+
+    &-group {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
   }
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import profile from "../../assets/images/mdi_account.png";
 import "./Header.scss";
 
@@ -13,15 +13,23 @@ const Header = () => {
       </div>
 
       <div className="header__left-menu">
-        <Link to="/explore">
+        <NavLink
+          to="/explore"
+          className="header__link"
+          activeClassName="active"
+        >
           <p className="header__explore">Explore</p>
-        </Link>
-        <Link to="/about">
+        </NavLink>
+        <NavLink to="/about" className="header__link" activeClassName="active">
           <p className="header__about">About</p>
-        </Link>
-        <Link to="/contact">
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className="header__link"
+          activeClassName="active"
+        >
           <p className="header__contact">Contact</p>
-        </Link>
+        </NavLink>
         <img className="header__profile" src={profile} />
       </div>
     </div>

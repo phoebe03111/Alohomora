@@ -23,13 +23,14 @@ function App() {
     <BrowserRouter className="app">
       <Header />
       <Switch>
-        <Route path="/explore/:id" component={DetailedActivityPage} />
+        <Route path="/explore/result/:id" component={DetailedActivityPage} />
+        <Route path="/explore/result" component={FilteredResultsPage} />
         <Route path="/store/:id" component={StorePage} />
-        <Route path="/explore" component={ExplorePage} />
+        <Route path="/" exact component={HomePage} />
+        <Route path="/explore" exact component={ExplorePage} />
         <Route path="/test" component={Modal} />
         <Route path="/contact" component={ContactPage} />
         <Route path="/about" component={AboutPage} />
-        <Route path="/filteredResults" component={FilteredResultsPage} />
         <Route path="/" exact component={HomePage} />
         <Route path="*">
           <Redirect to="/" exact component={HomePage} />
