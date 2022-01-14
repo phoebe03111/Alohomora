@@ -9,14 +9,13 @@
 }
 
 body {
-  font-family: "Avenir", serif;
+  font-family: "Poppins", serif;
   color: $primary-black;
   background-color: $primary-white;
 }
 
 button {
   font-family: inherit;
-  @include mobil-labels;
   color: $primary-black;
   height: 2.25rem;
   padding: 0 1rem;
@@ -34,7 +33,6 @@ button {
 
   @include tablet {
     height: 2.375rem;
-    @include labels;
   }
 }
 
@@ -54,7 +52,7 @@ textarea {
 
   &:focus {
     outline: none;
-    border: 1px solid $primary-blue;
+    border: 1px solid $primary-green;
   }
 
   &:focus:invalid {
