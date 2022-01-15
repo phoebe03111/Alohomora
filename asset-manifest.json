@@ -1,10 +1,38 @@
 {
   "files": {
-    "main.js": "/Alohomora/static/js/main.13a46a7a.js",
-    "index.html": "/Alohomora/index.html",
-    "main.13a46a7a.js.map": "/Alohomora/static/js/main.13a46a7a.js.map"
+    "main.css": "/React-Deploy/static/css/main.c41e1750.css",
+    "main.js": "/React-Deploy/static/js/main.5ecdffea.js",
+    "static/media/campfire.png": "/React-Deploy/static/media/campfire.02b9c755f0d90fbc26e6.png",
+    "static/media/pizza.png": "/React-Deploy/static/media/pizza.a1d0c77fa21b2fc9f540.png",
+    "static/media/hero-2.png": "/React-Deploy/static/media/hero-2.5f51499bda79fc2aedeb.png",
+    "static/media/biking.png": "/React-Deploy/static/media/biking.f1e09f2f3bd938fc6126.png",
+    "static/media/golf.png": "/React-Deploy/static/media/golf.e556fdc4da8a9341682e.png",
+    "static/media/pottery.png": "/React-Deploy/static/media/pottery.800af2adacd7bd29cb4b.png",
+    "static/media/paint.png": "/React-Deploy/static/media/paint.f0145f2f597e45f45300.png",
+    "static/media/chase.png": "/React-Deploy/static/media/chase.b28b0da19efd479518db.png",
+    "static/media/fishing.png": "/React-Deploy/static/media/fishing.92bbfeff64a50e149817.png",
+    "static/media/cookie.png": "/React-Deploy/static/media/cookie.3e29c6e512beac83084a.png",
+    "static/media/pizza1.png": "/React-Deploy/static/media/pizza1.f2c210d53f96adba8ae4.png",
+    "static/media/bc-tech.png": "/React-Deploy/static/media/bc-tech.2373874febaf965313ac.png",
+    "static/media/british colombia.png": "/React-Deploy/static/media/british colombia.8ab54f4d79047afe42da.png",
+    "static/media/Poppins-Regular.ttf": "/React-Deploy/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/React-Deploy/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/React-Deploy/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/brain-station.png": "/React-Deploy/static/media/brain-station.e694aee3a96da6e4973b.png",
+    "static/media/pizza2.jpg": "/React-Deploy/static/media/pizza2.086b1b097be34f5b5b3c.jpg",
+    "static/media/pizza3.jpg": "/React-Deploy/static/media/pizza3.6afe50ece381d07dccb5.jpg",
+    "static/media/whiteHeart.svg": "/React-Deploy/static/media/whiteHeart.6bdf04451581c7cb6012ff492a0c056a.svg",
+    "static/media/star.svg": "/React-Deploy/static/media/star.dd0a55d7dccfcc91a850976e8b8327db.svg",
+    "index.html": "/React-Deploy/index.html",
+    "static/media/heart.svg": "/React-Deploy/static/media/heart.efc7158ef61dd79433092cbbd8aa3ab0.svg",
+    "static/media/user-alt-solid.svg": "/React-Deploy/static/media/user-alt-solid.cbeb837e6e37ce5bb390861177d07c93.svg",
+    "static/media/wine.svg": "/React-Deploy/static/media/wine.be5ced55ad6ab4280a70099d4f042dda.svg",
+    "static/media/close.svg": "/React-Deploy/static/media/close.4862ddd56a4234e7665b782ce3c8e4fb.svg",
+    "main.c41e1750.css.map": "/React-Deploy/static/css/main.c41e1750.css.map",
+    "main.5ecdffea.js.map": "/React-Deploy/static/js/main.5ecdffea.js.map"
   },
   "entrypoints": [
-    "static/js/main.13a46a7a.js"
+    "static/css/main.c41e1750.css",
+    "static/js/main.5ecdffea.js"
   ]
 }
